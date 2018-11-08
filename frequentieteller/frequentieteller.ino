@@ -117,7 +117,7 @@ void loop() {
   Serial.print("     Period (sec): ");
   Serial.println(period,7);  
 
-  if (frq < 10000){
+  if (frq < 434000){
     digitalWrite(LED, HIGH);
     }
   else{
@@ -127,4 +127,4 @@ void loop() {
 }  
 
 
-
+  
