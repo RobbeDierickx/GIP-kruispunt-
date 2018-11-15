@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
@@ -196,17 +196,6 @@ Source: www.vishay.com .. ir.pdf</description>
 <wire x1="-1.6" y1="-4.325" x2="-1.6" y2="4.325" width="0.2" layer="21"/>
 <wire x1="-3.5" y1="4.51" x2="-1.95" y2="4.51" width="0.2" layer="21"/>
 </package>
-<package name="332-02" urn="urn:adsk.eagle:footprint:6784/1" locally_modified="yes">
-<description>&lt;b&gt;2 Pin - 2mm Dual Row&lt;/b&gt;&lt;p&gt;
-Source: www.mpe-connector.de / garry_shortform_2012.pdf</description>
-<wire x1="-0.85" y1="-1.9" x2="0.7992" y2="-1.9" width="0.2032" layer="21"/>
-<wire x1="0.7992" y1="-1.9" x2="0.7992" y2="-0.1206" width="0.2032" layer="21"/>
-<wire x1="-0.9008" y1="-0.122" x2="0.7992" y2="-0.122" width="0.2032" layer="21"/>
-<pad name="1" x="0" y="-1" drill="0.9" diameter="1.27"/>
-<text x="-0.62" y="-3.81" size="1.27" layer="25">&gt;NAME</text>
-<text x="-0.62" y="2.54" size="1.27" layer="27">&gt;VALUE</text>
-<wire x1="-0.9026" y1="-1.9" x2="-0.9026" y2="-0.1206" width="0.2032" layer="21"/>
-</package>
 <package name="DO35-10" urn="urn:adsk.eagle:footprint:43092/1">
 <description>&lt;B&gt;DIODE&lt;/B&gt;&lt;p&gt;
 diameter 2 mm, horizontal, grid 10.16 mm</description>
@@ -263,6 +252,30 @@ diameter 2 mm, horizontal, grid 7.62 mm</description>
 <rectangle x1="2.286" y1="-0.254" x2="2.921" y2="0.254" layer="21"/>
 <rectangle x1="-2.921" y1="-0.254" x2="-2.286" y2="0.254" layer="21"/>
 </package>
+<package name="332-02" urn="urn:adsk.eagle:footprint:6784/1" locally_modified="yes">
+<description>&lt;b&gt;2 Pin - 2mm Dual Row&lt;/b&gt;&lt;p&gt;
+Source: www.mpe-connector.de / garry_shortform_2012.pdf</description>
+<wire x1="-0.85" y1="-1.9" x2="0.7992" y2="-1.9" width="0.2032" layer="21"/>
+<wire x1="0.7992" y1="-1.9" x2="0.7992" y2="-0.1206" width="0.2032" layer="21"/>
+<wire x1="-0.9008" y1="-0.122" x2="0.7992" y2="-0.122" width="0.2032" layer="21"/>
+<pad name="1" x="-0.0508" y="-1.0254" drill="0.9" diameter="1.27"/>
+<text x="-0.62" y="-3.81" size="1.27" layer="25">&gt;NAME</text>
+<text x="-0.62" y="2.54" size="1.27" layer="27">&gt;VALUE</text>
+<wire x1="-0.9026" y1="-1.9" x2="-0.9026" y2="-0.1206" width="0.2032" layer="21"/>
+</package>
+<package name="90-2" urn="urn:adsk.eagle:footprint:11244/1">
+<description>&lt;b&gt;WEIDMUELLER CLAMP CONNECTOR&lt;/b&gt;</description>
+<wire x1="-3.4" y1="-4.85" x2="3.4" y2="-4.85" width="0.2032" layer="21"/>
+<wire x1="3.4" y1="-4.85" x2="3.4" y2="6.05" width="0.2032" layer="21"/>
+<wire x1="3.4" y1="6.05" x2="-3.4" y2="6.05" width="0.2032" layer="51"/>
+<wire x1="-3.4" y1="6.05" x2="-3.4" y2="-4.85" width="0.2032" layer="21"/>
+<pad name="1" x="-1.75" y="5.25" drill="1.4224" shape="long" rot="R90"/>
+<pad name="2" x="1.75" y="5.25" drill="1.4224" shape="long" rot="R90"/>
+<text x="-1.75" y="7" size="1.27" layer="25">&gt;NAME</text>
+<text x="-1.75" y="1.75" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-2.275" y1="-4.9" x2="-1.225" y2="-1.225" layer="21"/>
+<rectangle x1="1.225" y1="-4.9" x2="2.275" y2="-1.225" layer="21"/>
+</package>
 </packages>
 <packages3d>
 <package3d name="TO220AV" urn="urn:adsk.eagle:package:29487/2" type="model">
@@ -270,13 +283,6 @@ diameter 2 mm, horizontal, grid 7.62 mm</description>
 grid 2.54 mm</description>
 <packageinstances>
 <packageinstance name="TO220AV"/>
-</packageinstances>
-</package3d>
-<package3d name="332-02" urn="urn:adsk.eagle:package:6810/1" locally_modified="yes" type="box">
-<description>2 Pin - 2mm Dual Row
-Source: www.mpe-connector.de / garry_shortform_2012.pdf</description>
-<packageinstances>
-<packageinstance name="332-02"/>
 </packageinstances>
 </package3d>
 <package3d name="DO35-10" urn="urn:adsk.eagle:package:43344/2" type="model">
@@ -291,6 +297,19 @@ diameter 2 mm, horizontal, grid 10.16 mm</description>
 diameter 2 mm, horizontal, grid 7.62 mm</description>
 <packageinstances>
 <packageinstance name="DO35-7"/>
+</packageinstances>
+</package3d>
+<package3d name="332-02" urn="urn:adsk.eagle:package:6810/1" locally_modified="yes" type="box">
+<description>2 Pin - 2mm Dual Row
+Source: www.mpe-connector.de / garry_shortform_2012.pdf</description>
+<packageinstances>
+<packageinstance name="332-02"/>
+</packageinstances>
+</package3d>
+<package3d name="90-2" urn="urn:adsk.eagle:package:11443/1" type="box">
+<description>WEIDMUELLER CLAMP CONNECTOR</description>
+<packageinstances>
+<packageinstance name="90-2"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -383,12 +402,6 @@ diameter 2 mm, horizontal, grid 7.62 mm</description>
 <text x="-2.413" y="-3.175" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="GND5" x="0" y="2.54" visible="off" length="short" direction="sup" rot="R270"/>
 </symbol>
-<symbol name="MV">
-<wire x1="1.27" y1="0" x2="0" y2="0" width="0.6096" layer="94"/>
-<text x="2.54" y="-0.762" size="1.524" layer="95">&gt;NAME</text>
-<text x="-0.762" y="1.397" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="S" x="-2.54" y="0" visible="off" length="short" direction="pas"/>
-</symbol>
 <symbol name="D">
 <wire x1="-1.27" y1="-1.27" x2="1.27" y2="0" width="0.254" layer="94"/>
 <wire x1="1.27" y1="0" x2="-1.27" y2="1.27" width="0.254" layer="94"/>
@@ -401,6 +414,20 @@ diameter 2 mm, horizontal, grid 7.62 mm</description>
 <text x="2.54" y="0" size="0.4064" layer="99" align="center">SpiceOrder 2</text>
 <pin name="A" x="-2.54" y="0" visible="off" length="short" direction="pas"/>
 <pin name="C" x="2.54" y="0" visible="off" length="short" direction="pas" rot="R180"/>
+</symbol>
+<symbol name="MV">
+<wire x1="1.27" y1="0" x2="0" y2="0" width="0.6096" layer="94"/>
+<text x="2.54" y="-0.762" size="1.524" layer="95">&gt;NAME</text>
+<text x="-0.762" y="1.397" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="S" x="-2.54" y="0" visible="off" length="short" direction="pas"/>
+</symbol>
+<symbol name="MALE-2">
+<text x="0" y="1.778" size="1.778" layer="95">&gt;NAME</text>
+<text x="0" y="-5.842" size="1.778" layer="96">&gt;VALUE</text>
+<rectangle x1="-0.254" y1="-0.254" x2="1.27" y2="0.254" layer="94"/>
+<rectangle x1="-0.254" y1="-2.794" x2="1.27" y2="-2.286" layer="94"/>
+<pin name="1" x="-2.54" y="0" visible="pin" length="short" direction="pas"/>
+<pin name="2" x="-2.54" y="-2.54" visible="pin" length="short" direction="pas"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -538,26 +565,6 @@ Source: &lt;a href="http://www.nxp.com/documents/data_sheet/74HC_HCT132.pdf"&gt;
 </device>
 </devices>
 </deviceset>
-<deviceset name="332-02" prefix="X">
-<description>&lt;b&gt;2 Pin - 2mm Dual Row&lt;/b&gt;&lt;p&gt;
-Source: www.mpe-connector.de / garry_shortform_2012.pdf</description>
-<gates>
-<gate name="-1" symbol="MV" x="0" y="0" addlevel="always"/>
-</gates>
-<devices>
-<device name="" package="332-02">
-<connects>
-<connect gate="-1" pin="S" pad="1"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:6810/1"/>
-</package3dinstances>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="1N4148" prefix="D">
 <description>&lt;B&gt;DIODE&lt;/B&gt;&lt;p&gt;
 high speed (Philips)</description>
@@ -591,6 +598,51 @@ high speed (Philips)</description>
 </device>
 </devices>
 </deviceset>
+<deviceset name="332-02" prefix="X">
+<description>&lt;b&gt;2 Pin - 2mm Dual Row&lt;/b&gt;&lt;p&gt;
+Source: www.mpe-connector.de / garry_shortform_2012.pdf</description>
+<gates>
+<gate name="-1" symbol="MV" x="0" y="0" addlevel="always"/>
+</gates>
+<devices>
+<device name="" package="332-02">
+<connects>
+<connect gate="-1" pin="S" pad="1"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:6810/1"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="90-2" prefix="X" uservalue="yes">
+<description>&lt;b&gt;WEIDMUELLER CLAMP CONNECTOR&lt;/b&gt;</description>
+<gates>
+<gate name="G$1" symbol="MALE-2" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="90-2">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:11443/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 </libraries>
@@ -618,9 +670,11 @@ high speed (Philips)</description>
 <part name="IC1" library="Detectielus library" deviceset="74HC132D" device=""/>
 <part name="SUPPLY3" library="Detectielus library" deviceset="GND5" device=""/>
 <part name="SUPPLY4" library="Detectielus library" deviceset="GND5" device=""/>
+<part name="D1" library="Detectielus library" deviceset="1N4148" device="DO35-7" package3d_urn="urn:adsk.eagle:package:43339/1"/>
 <part name="X1" library="Detectielus library" deviceset="332-02" device="" package3d_urn="urn:adsk.eagle:package:6810/1" value="Arduino"/>
 <part name="SUPPLY5" library="Detectielus library" deviceset="GND5" device=""/>
-<part name="D1" library="Detectielus library" deviceset="1N4148" device="DO35-7" package3d_urn="urn:adsk.eagle:package:43339/1"/>
+<part name="X2" library="Detectielus library" deviceset="90-2" device="" package3d_urn="urn:adsk.eagle:package:11443/1"/>
+<part name="X3" library="Detectielus library" deviceset="90-2" device="" package3d_urn="urn:adsk.eagle:package:11443/1"/>
 </parts>
 <sheets>
 <sheet>
@@ -683,6 +737,10 @@ high speed (Philips)</description>
 <instance part="SUPPLY4" gate="G$1" x="7.62" y="20.32" smashed="yes">
 <attribute name="VALUE" x="5.207" y="17.145" size="1.778" layer="96"/>
 </instance>
+<instance part="D1" gate="G$1" x="45.72" y="17.78" smashed="yes" rot="R90">
+<attribute name="NAME" x="45.2374" y="20.32" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="48.0314" y="20.32" size="1.778" layer="96" rot="R90"/>
+</instance>
 <instance part="X1" gate="-1" x="40.64" y="71.12" smashed="yes" rot="R90">
 <attribute name="NAME" x="41.402" y="73.66" size="1.524" layer="95" rot="R90"/>
 <attribute name="VALUE" x="39.243" y="70.358" size="1.778" layer="96" rot="R90"/>
@@ -690,9 +748,13 @@ high speed (Philips)</description>
 <instance part="SUPPLY5" gate="G$1" x="45.72" y="10.16" smashed="yes">
 <attribute name="VALUE" x="43.307" y="6.985" size="1.778" layer="96"/>
 </instance>
-<instance part="D1" gate="G$1" x="45.72" y="17.78" smashed="yes" rot="R90">
-<attribute name="NAME" x="45.2374" y="20.32" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="48.0314" y="20.32" size="1.778" layer="96" rot="R90"/>
+<instance part="X2" gate="G$1" x="-66.04" y="78.74" smashed="yes" rot="R180">
+<attribute name="NAME" x="-66.04" y="76.962" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="-66.04" y="84.582" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="X3" gate="G$1" x="-66.04" y="68.58" smashed="yes" rot="R180">
+<attribute name="NAME" x="-66.04" y="66.802" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="-66.04" y="74.422" size="1.778" layer="96" rot="R180"/>
 </instance>
 </instances>
 <busses>
@@ -742,18 +804,7 @@ high speed (Philips)</description>
 <junction x="15.24" y="58.42"/>
 </segment>
 </net>
-<net name="VCC" class="0">
-<segment>
-<pinref part="R1" gate="G$1" pin="2"/>
-<wire x1="-15.24" y1="71.12" x2="-15.24" y2="73.66" width="0.1524" layer="91"/>
-<wire x1="-15.24" y1="73.66" x2="-7.62" y2="73.66" width="0.1524" layer="91"/>
-<pinref part="SUPPLY1" gate="G$1" pin="VCC"/>
-<wire x1="-7.62" y1="73.66" x2="-7.62" y2="76.2" width="0.1524" layer="91"/>
-<pinref part="R2" gate="G$1" pin="2"/>
-<wire x1="0" y1="71.12" x2="0" y2="73.66" width="0.1524" layer="91"/>
-<wire x1="0" y1="73.66" x2="-7.62" y2="73.66" width="0.1524" layer="91"/>
-<junction x="-7.62" y="73.66"/>
-</segment>
+<net name="VCC-5V" class="0">
 <segment>
 <pinref part="IC1" gate="G$1" pin="1B"/>
 <wire x1="55.88" y1="48.26" x2="53.34" y2="48.26" width="0.1524" layer="91"/>
@@ -765,6 +816,12 @@ high speed (Philips)</description>
 <wire x1="86.36" y1="50.8" x2="86.36" y2="60.96" width="0.1524" layer="91"/>
 <wire x1="86.36" y1="60.96" x2="53.34" y2="60.96" width="0.1524" layer="91"/>
 <junction x="53.34" y="60.96"/>
+<label x="63.5" y="60.96" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="X3" gate="G$1" pin="2"/>
+<wire x1="-63.5" y1="71.12" x2="-60.96" y2="71.12" width="0.1524" layer="91"/>
+<label x="-63.246" y="71.374" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$1" class="0">
@@ -822,9 +879,40 @@ high speed (Philips)</description>
 <junction x="-15.24" y="22.86"/>
 </segment>
 <segment>
-<pinref part="SUPPLY5" gate="G$1" pin="GND5"/>
-<wire x1="45.72" y1="12.7" x2="45.72" y2="15.24" width="0.1524" layer="91"/>
 <pinref part="D1" gate="G$1" pin="A"/>
+<wire x1="45.72" y1="15.24" x2="45.72" y2="12.7" width="0.1524" layer="91"/>
+<pinref part="SUPPLY5" gate="G$1" pin="GND5"/>
+</segment>
+</net>
+<net name="VCC-24V" class="0">
+<segment>
+<pinref part="R1" gate="G$1" pin="2"/>
+<wire x1="-15.24" y1="71.12" x2="-15.24" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="-15.24" y1="73.66" x2="-7.62" y2="73.66" width="0.1524" layer="91"/>
+<pinref part="SUPPLY1" gate="G$1" pin="VCC"/>
+<wire x1="-7.62" y1="73.66" x2="-7.62" y2="76.2" width="0.1524" layer="91"/>
+<pinref part="R2" gate="G$1" pin="2"/>
+<wire x1="0" y1="71.12" x2="0" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="0" y1="73.66" x2="-7.62" y2="73.66" width="0.1524" layer="91"/>
+<junction x="-7.62" y="73.66"/>
+<label x="-12.7" y="73.66" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="X2" gate="G$1" pin="2"/>
+<wire x1="-63.5" y1="81.28" x2="-60.96" y2="81.28" width="0.1524" layer="91"/>
+<label x="-63.246" y="81.534" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="GND" class="0">
+<segment>
+<pinref part="X2" gate="G$1" pin="1"/>
+<wire x1="-63.5" y1="78.74" x2="-60.96" y2="78.74" width="0.1524" layer="91"/>
+<label x="-63.246" y="78.994" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="X3" gate="G$1" pin="1"/>
+<wire x1="-63.5" y1="68.58" x2="-60.96" y2="68.58" width="0.1524" layer="91"/>
+<label x="-63.246" y="68.834" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
