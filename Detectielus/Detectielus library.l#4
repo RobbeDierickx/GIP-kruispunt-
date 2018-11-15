@@ -347,6 +347,10 @@ grid 2.54 mm</description>
 </gates>
 <devices>
 <device name="" package="C050-024X044">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -359,6 +363,10 @@ grid 2.54 mm</description>
 </gates>
 <devices>
 <device name="" package="IR-4">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
 <technologies>
 <technology name=""/>
 </technologies>

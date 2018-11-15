@@ -297,6 +297,18 @@ grid 2.54 mm</description>
 </device>
 </devices>
 </deviceset>
+<deviceset name="SPOEL">
+<gates>
+<gate name="G$1" symbol="L-US" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="IR-4">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 </drawing>

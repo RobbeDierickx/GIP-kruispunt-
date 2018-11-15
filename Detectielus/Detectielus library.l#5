@@ -404,6 +404,18 @@ Source: &lt;a href="http://www.nxp.com/documents/data_sheet/74HC_HCT132.pdf"&gt;
 </device>
 </devices>
 </deviceset>
+<deviceset name="RESISTOR">
+<gates>
+<gate name="G$1" symbol="R-EU" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="RDH/15">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 </drawing>
