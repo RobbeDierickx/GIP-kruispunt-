@@ -541,8 +541,8 @@ high speed (Philips)</description>
 <part name="C2" library="Vertrangingsschema library" deviceset="ELCO" device="" value="100µF"/>
 <part name="SUPPLY2" library="Vertrangingsschema library" deviceset="GND5" device="" value="GND"/>
 <part name="R2" library="Vertrangingsschema library" deviceset="RESISTOR" device="" value="10k"/>
-<part name="X2" library="Vertrangingsschema library" deviceset="332-02" device="" package3d_urn="urn:adsk.eagle:package:6810/1" value="Lichtsturing 1"/>
-<part name="X3" library="Vertrangingsschema library" deviceset="332-02" device="" package3d_urn="urn:adsk.eagle:package:6810/1" value="Lichtsturing 2"/>
+<part name="X2" library="Vertrangingsschema library" deviceset="332-02" device="" package3d_urn="urn:adsk.eagle:package:6810/1" value="Hardwaresturingsschema 1"/>
+<part name="X3" library="Vertrangingsschema library" deviceset="332-02" device="" package3d_urn="urn:adsk.eagle:package:6810/1" value="Hardwaresturingsschema 2"/>
 <part name="X4" library="Vertrangingsschema library" deviceset="90-2" device="" package3d_urn="urn:adsk.eagle:package:11443/1"/>
 <part name="SUPPLY3" library="Vertrangingsschema library" deviceset="VCC" device="" value="VCC 5V"/>
 <part name="SUPPLY4" library="Vertrangingsschema library" deviceset="GND5" device="" value="GND"/>
