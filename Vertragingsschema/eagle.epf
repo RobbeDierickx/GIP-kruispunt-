@@ -1,0 +1,18 @@
+[Eagle]
+Version="09 02 02"
+Platform="Windows"
+Globals="Globals"
+Desktop="Desktop"
+
+[Globals]
+AutoSaveProject=1
+UsedLibrary="C:/Users/Robbe.Dierickx/Documents/EAGLE/libraries/linear4.lbr"
+UsedLibrary="Vertrangingsschema library.lbr"
+
+[Win_1]
+Type="Control Panel"
+Number=0
+
+[Desktop]
+Screen="1280 1024"
+Window="Win_1"
