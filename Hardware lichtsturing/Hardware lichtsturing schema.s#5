@@ -721,7 +721,7 @@ Source: &lt;a href="http://www.farnell.com/datasheets/391098.pdf"&gt; Data sheet
 <sheets>
 <sheet>
 <plain>
-<text x="132.08" y="0" size="1.778" layer="91">Digital in = 0: groen aan, geel en rood uit.
+<text x="132.08" y="0" size="1.778" layer="95">Digital in = 0: groen aan, geel en rood uit.
 Digital in = 1: groen uit, geel aan en na 2 seconden geel uit en rood aan. 
 </text>
 </plain>
