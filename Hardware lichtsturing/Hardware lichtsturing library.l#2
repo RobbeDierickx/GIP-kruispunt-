@@ -519,7 +519,7 @@ Source: www.mpe-connector.de / garry_shortform_2012.pdf</description>
 <deviceset name="GND5" prefix="SUPPLY">
 <description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
 <gates>
-<gate name="G$1" symbol="GND5" x="0" y="0"/>
+<gate name="GND" symbol="GND5" x="0" y="0"/>
 </gates>
 <devices>
 <device name="">

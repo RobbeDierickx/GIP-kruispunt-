@@ -418,6 +418,10 @@ Source: &lt;a href="http://www.nxp.com/documents/data_sheet/74HC_HCT132.pdf"&gt;
 </gates>
 <devices>
 <device name="" package="RDH/15">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
 <technologies>
 <technology name=""/>
 </technologies>
