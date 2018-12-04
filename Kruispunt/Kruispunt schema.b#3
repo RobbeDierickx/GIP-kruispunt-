@@ -156,7 +156,7 @@
 <wire x1="19.812" y1="80.01" x2="19.812" y2="57.404" width="0.1524" layer="21"/>
 <wire x1="19.812" y1="57.404" x2="54.483" y2="57.404" width="0.1524" layer="21"/>
 <wire x1="54.483" y1="57.404" x2="54.61" y2="57.277" width="0.1524" layer="21"/>
-<text x="31.115" y="78.105" size="1.27" layer="21">Vertaginsschema</text>
+<text x="24.257" y="78.867" size="2.032" layer="21">Vertragingsschema</text>
 <text x="54.991" y="38.608" size="2.286" layer="21">Detectielussen</text>
 <wire x1="54.61" y1="57.277" x2="54.61" y2="81.153" width="0.1524" layer="21"/>
 <wire x1="47.625" y1="30.353" x2="-0.127" y2="30.353" width="0.1524" layer="21"/>
@@ -240,7 +240,7 @@ grid 2.5 + 5 mm, outline 3.5 x 7.5 mm</description>
 <wire x1="-1.651" y1="1.524" x2="-0.889" y2="1.524" width="0.3048" layer="21"/>
 <wire x1="0.889" y1="-1.397" x2="1.651" y2="-1.397" width="0.3048" layer="21"/>
 </package>
-<package name="DIL14" urn="urn:adsk.eagle:footprint:1631/1">
+<package name="DIL14" urn="urn:adsk.eagle:footprint:1631/1" locally_modified="yes">
 <description>&lt;b&gt;Dual In Line Package&lt;/b&gt;</description>
 <wire x1="8.89" y1="2.921" x2="-8.89" y2="2.921" width="0.1524" layer="21"/>
 <wire x1="-8.89" y1="-2.921" x2="8.89" y2="-2.921" width="0.1524" layer="21"/>
@@ -248,20 +248,20 @@ grid 2.5 + 5 mm, outline 3.5 x 7.5 mm</description>
 <wire x1="-8.89" y1="2.921" x2="-8.89" y2="1.016" width="0.1524" layer="21"/>
 <wire x1="-8.89" y1="-2.921" x2="-8.89" y2="-1.016" width="0.1524" layer="21"/>
 <wire x1="-8.89" y1="1.016" x2="-8.89" y2="-1.016" width="0.1524" layer="21" curve="-180"/>
-<pad name="1" x="-7.62" y="-3.81" drill="0.8128" shape="long" rot="R90"/>
-<pad name="2" x="-5.08" y="-3.81" drill="0.8128" shape="long" rot="R90"/>
-<pad name="7" x="7.62" y="-3.81" drill="0.8128" shape="long" rot="R90"/>
-<pad name="8" x="7.62" y="3.81" drill="0.8128" shape="long" rot="R90"/>
-<pad name="3" x="-2.54" y="-3.81" drill="0.8128" shape="long" rot="R90"/>
-<pad name="4" x="0" y="-3.81" drill="0.8128" shape="long" rot="R90"/>
-<pad name="6" x="5.08" y="-3.81" drill="0.8128" shape="long" rot="R90"/>
-<pad name="5" x="2.54" y="-3.81" drill="0.8128" shape="long" rot="R90"/>
-<pad name="9" x="5.08" y="3.81" drill="0.8128" shape="long" rot="R90"/>
-<pad name="10" x="2.54" y="3.81" drill="0.8128" shape="long" rot="R90"/>
-<pad name="11" x="0" y="3.81" drill="0.8128" shape="long" rot="R90"/>
-<pad name="12" x="-2.54" y="3.81" drill="0.8128" shape="long" rot="R90"/>
-<pad name="13" x="-5.08" y="3.81" drill="0.8128" shape="long" rot="R90"/>
-<pad name="14" x="-7.62" y="3.81" drill="0.8128" shape="long" rot="R90"/>
+<pad name="1" x="-7.62" y="-3.81" drill="0.8128" rot="R90"/>
+<pad name="2" x="-5.08" y="-3.81" drill="0.8128" rot="R90"/>
+<pad name="7" x="7.62" y="-3.81" drill="0.8128" rot="R90"/>
+<pad name="8" x="7.62" y="3.81" drill="0.8128" rot="R90"/>
+<pad name="3" x="-2.54" y="-3.81" drill="0.8128" rot="R90"/>
+<pad name="4" x="0" y="-3.81" drill="0.8128" rot="R90"/>
+<pad name="6" x="5.08" y="-3.81" drill="0.8128" rot="R90"/>
+<pad name="5" x="2.54" y="-3.81" drill="0.8128" rot="R90"/>
+<pad name="9" x="5.08" y="3.81" drill="0.8128" rot="R90"/>
+<pad name="10" x="2.54" y="3.81" drill="0.8128" rot="R90"/>
+<pad name="11" x="0" y="3.81" drill="0.8128" rot="R90"/>
+<pad name="12" x="-2.54" y="3.81" drill="0.8128" rot="R90"/>
+<pad name="13" x="-5.08" y="3.81" drill="0.8128" rot="R90"/>
+<pad name="14" x="-7.62" y="3.81" drill="0.8128" rot="R90"/>
 <text x="-9.271" y="-3.048" size="1.27" layer="25" ratio="10" rot="R90">&gt;NAME</text>
 <text x="-6.731" y="-0.635" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 </package>
@@ -387,28 +387,15 @@ Cermet MIL-R-22097</description>
 <rectangle x1="7.62" y1="-7.62" x2="8.89" y2="0" layer="21"/>
 <rectangle x1="10.16" y1="-7.62" x2="11.43" y2="0" layer="21"/>
 <rectangle x1="12.7" y1="-8.89" x2="13.97" y2="0" layer="21"/>
-<text x="14.605" y="12.7" size="0.6096" layer="21" font="vector">P0
-SDA
-PWM</text>
-<text x="12.065" y="12.7" size="0.6096" layer="21" font="vector">P1
-LED
-PWM</text>
-<text x="9.525" y="12.7" size="0.6096" layer="21" font="vector">P2
-SCL
-A1</text>
-<text x="6.985" y="12.7" size="0.6096" layer="21" font="vector">P3
-A3
-USB+</text>
-<text x="4.445" y="11.938" size="0.6096" layer="21" font="vector">P4
-As
-PWM
-USB-</text>
-<text x="1.905" y="12.7" size="0.6096" layer="21" font="vector">P5
-A0
-3v</text>
-<text x="13.97" y="8.255" size="0.8128" layer="21" font="vector">Vin</text>
-<text x="13.97" y="5.715" size="0.8128" layer="21" font="vector">GND</text>
-<text x="13.97" y="3.175" size="0.8128" layer="21" font="vector">+5v</text>
+<text x="15.748" y="12.7" size="1.4224" layer="21" font="vector" rot="R90">P0</text>
+<text x="13.208" y="12.7" size="1.4224" layer="21" font="vector" rot="R90">P1</text>
+<text x="10.668" y="12.7" size="1.4224" layer="21" font="vector" rot="R90">P2</text>
+<text x="8.128" y="12.7" size="1.4224" layer="21" font="vector" rot="R90">P3</text>
+<text x="5.588" y="12.7" size="1.4224" layer="21" font="vector" rot="R90">P4</text>
+<text x="3.048" y="12.7" size="1.4224" layer="21" font="vector" rot="R90">P5</text>
+<text x="12.7" y="8.255" size="1.27" layer="21" font="vector">Vin</text>
+<text x="12.7" y="5.715" size="1.27" layer="21" font="vector">GND</text>
+<text x="12.7" y="3.175" size="1.27" layer="21" font="vector">+5v</text>
 <pad name="VIN1" x="22.86" y="8.89" drill="1" diameter="1.9304"/>
 <pad name="GND1" x="22.86" y="6.35" drill="1" diameter="1.9304"/>
 <pad name="5V1" x="22.86" y="3.81" drill="1" diameter="1.9304"/>
@@ -517,7 +504,7 @@ diameter 2 mm, horizontal, grid 7.62 mm</description>
 </package>
 </packages>
 <packages3d>
-<package3d name="DIL14" urn="urn:adsk.eagle:package:2008/1" type="box">
+<package3d name="DIL14" urn="urn:adsk.eagle:package:2008/1" locally_modified="yes" type="box">
 <description>Dual In Line Package</description>
 <packageinstances>
 <packageinstance name="DIL14"/>
@@ -837,13 +824,13 @@ design rules under a new name.</description>
 <attribute name="NAME" x="15.113" y="35.687" size="1.27" layer="25" font="vector" rot="R90"/>
 <attribute name="VALUE" x="15.113" y="38.1" size="1.27" layer="27" font="vector" rot="R90"/>
 </element>
-<element name="C3" library="Kruispunt Library" package="ELCO-2.5MMLEAD" value="100µF" x="33.909" y="63.881" smashed="yes">
-<attribute name="NAME" x="31.242" y="58.42" size="1.27" layer="25" font="vector"/>
-<attribute name="VALUE" x="31.242" y="60.071" size="1.27" layer="27" font="vector"/>
+<element name="C3" library="Kruispunt Library" package="ELCO-2.5MMLEAD" value="100µF" x="34.925" y="64.389" smashed="yes">
+<attribute name="NAME" x="32.258" y="58.928" size="1.27" layer="25" font="vector"/>
+<attribute name="VALUE" x="32.258" y="60.579" size="1.27" layer="27" font="vector"/>
 </element>
-<element name="C4" library="Kruispunt Library" package="ELCO-2.5MMLEAD" value="100µF" x="40.386" y="63.754" smashed="yes">
-<attribute name="NAME" x="37.465" y="58.42" size="1.27" layer="25" font="vector"/>
-<attribute name="VALUE" x="37.465" y="60.071" size="1.27" layer="27" font="vector"/>
+<element name="C4" library="Kruispunt Library" package="ELCO-2.5MMLEAD" value="100µF" x="41.402" y="64.262" smashed="yes">
+<attribute name="NAME" x="38.481" y="58.928" size="1.27" layer="25" font="vector"/>
+<attribute name="VALUE" x="38.481" y="60.579" size="1.27" layer="27" font="vector"/>
 </element>
 <element name="C5" library="Kruispunt Library" package="CERAMIC-CAP-C025_050-035X075" value="100nF" x="5.08" y="15.24" smashed="yes">
 <attribute name="NAME" x="2.794" y="17.399" size="1.27" layer="25" ratio="10"/>
@@ -945,9 +932,9 @@ design rules under a new name.</description>
 <attribute name="NAME" x="55.499" y="50.673" size="1.27" layer="25" ratio="10"/>
 <attribute name="VALUE" x="55.372" y="52.197" size="1.27" layer="27" ratio="10"/>
 </element>
-<element name="R1" library="Kruispunt Library" package="0207/10" value="8k" x="36.576" y="74.168" smashed="yes">
-<attribute name="NAME" x="37.084" y="73.66" size="1.27" layer="25" ratio="10"/>
-<attribute name="VALUE" x="34.1884" y="73.66" size="1.27" layer="27" ratio="10"/>
+<element name="R1" library="Kruispunt Library" package="0207/10" value="8k" x="37.592" y="74.676" smashed="yes">
+<attribute name="NAME" x="38.1" y="74.168" size="1.27" layer="25" ratio="10"/>
+<attribute name="VALUE" x="35.2044" y="74.168" size="1.27" layer="27" ratio="10"/>
 </element>
 <element name="R10" library="Kruispunt Library" package="0207/10" value="1k" x="7.366" y="45.72" smashed="yes">
 <attribute name="NAME" x="7.112" y="45.085" size="1.27" layer="25" ratio="10"/>
@@ -989,9 +976,9 @@ design rules under a new name.</description>
 <attribute name="NAME" x="63.5" y="73.787" size="1.27" layer="25" ratio="10"/>
 <attribute name="VALUE" x="60.7314" y="73.787" size="1.27" layer="27" ratio="10"/>
 </element>
-<element name="R2" library="Kruispunt Library" package="0207/10" value="8k" x="36.576" y="68.326" smashed="yes">
-<attribute name="NAME" x="37.211" y="67.691" size="1.27" layer="25" ratio="10"/>
-<attribute name="VALUE" x="33.8074" y="67.691" size="1.27" layer="27" ratio="10"/>
+<element name="R2" library="Kruispunt Library" package="0207/10" value="8k" x="37.592" y="68.834" smashed="yes">
+<attribute name="NAME" x="38.227" y="68.199" size="1.27" layer="25" ratio="10"/>
+<attribute name="VALUE" x="34.8234" y="68.199" size="1.27" layer="27" ratio="10"/>
 </element>
 <element name="R20" library="Kruispunt Library" package="0207/10" value="2,2k" x="63.627" y="77.47" smashed="yes">
 <attribute name="NAME" x="64.008" y="76.835" size="1.27" layer="25" ratio="10"/>
@@ -1005,13 +992,13 @@ design rules under a new name.</description>
 <attribute name="NAME" x="63.627" y="70.739" size="1.27" layer="25" ratio="10"/>
 <attribute name="VALUE" x="60.7314" y="70.739" size="1.27" layer="27" ratio="10"/>
 </element>
-<element name="R23" library="Kruispunt Library" package="RTRIM64W" value="5k" x="48.26" y="63.754" smashed="yes" rot="R270">
-<attribute name="NAME" x="43.818" y="63.453" size="1.27" layer="51" font="vector"/>
-<attribute name="VALUE" x="47.247" y="63.468" size="1.27" layer="27" font="vector"/>
+<element name="R23" library="Kruispunt Library" package="RTRIM64W" value="5k" x="49.276" y="64.262" smashed="yes" rot="R270">
+<attribute name="NAME" x="44.834" y="63.961" size="1.27" layer="51" font="vector"/>
+<attribute name="VALUE" x="48.263" y="63.976" size="1.27" layer="27" font="vector"/>
 </element>
-<element name="R24" library="Kruispunt Library" package="RTRIM64W" value="5k" x="48.26" y="69.85" smashed="yes" rot="R270">
-<attribute name="NAME" x="43.818" y="69.549" size="1.27" layer="51" font="vector"/>
-<attribute name="VALUE" x="47.247" y="69.564" size="1.27" layer="27" font="vector"/>
+<element name="R24" library="Kruispunt Library" package="RTRIM64W" value="5k" x="49.276" y="70.358" smashed="yes" rot="R270">
+<attribute name="NAME" x="44.834" y="70.057" size="1.27" layer="51" font="vector"/>
+<attribute name="VALUE" x="48.263" y="70.072" size="1.27" layer="27" font="vector"/>
 </element>
 <element name="R25" library="Kruispunt Library" package="RTRIM64W" value="50k" x="18.796" y="46.101" smashed="yes" rot="R270">
 <attribute name="NAME" x="14.354" y="45.8" size="1.27" layer="51" font="vector"/>
@@ -1068,13 +1055,13 @@ design rules under a new name.</description>
 <attribute name="OC_NEWARK" value="unknown" x="143.256" y="83.439" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="101.981" y="16.129" size="1.27" layer="27" ratio="10" rot="R90"/>
 </element>
-<element name="D1" library="Kruispunt Library" package="DO35-7" package3d_urn="urn:adsk.eagle:package:43339/1" value="1N4148" x="48.006" y="74.422" smashed="yes" rot="R180">
-<attribute name="NAME" x="47.244" y="78.486" size="1.016" layer="25" ratio="10" rot="R180"/>
-<attribute name="VALUE" x="50.546" y="77.089" size="1.016" layer="27" ratio="10" rot="R180"/>
+<element name="D1" library="Kruispunt Library" package="DO35-7" package3d_urn="urn:adsk.eagle:package:43339/1" value="1N4148" x="49.022" y="74.93" smashed="yes" rot="R180">
+<attribute name="NAME" x="51.562" y="78.994" size="1.016" layer="25" ratio="10" rot="R180"/>
+<attribute name="VALUE" x="51.562" y="77.597" size="1.016" layer="27" ratio="10" rot="R180"/>
 </element>
-<element name="D2" library="Kruispunt Library" package="DO35-7" package3d_urn="urn:adsk.eagle:package:43339/1" value="1N4148" x="35.433" y="71.12" smashed="yes" rot="R180">
-<attribute name="NAME" x="42.672" y="71.628" size="1.016" layer="25" ratio="10" rot="R180"/>
-<attribute name="VALUE" x="44.958" y="72.898" size="1.016" layer="27" ratio="10" rot="R180"/>
+<element name="D2" library="Kruispunt Library" package="DO35-7" package3d_urn="urn:adsk.eagle:package:43339/1" value="1N4148" x="36.449" y="71.628" smashed="yes" rot="R180">
+<attribute name="NAME" x="43.688" y="72.136" size="1.016" layer="25" ratio="10" rot="R180"/>
+<attribute name="VALUE" x="45.974" y="73.406" size="1.016" layer="27" ratio="10" rot="R180"/>
 </element>
 <element name="D13" library="Kruispunt Library" package="DO35-7" package3d_urn="urn:adsk.eagle:package:43339/1" value="1N4148DO35-7" x="79.756" y="42.037" smashed="yes" rot="R270">
 <attribute name="NAME" x="81.026" y="48.133" size="1.27" layer="25" ratio="10" rot="R270"/>
@@ -1290,18 +1277,18 @@ design rules under a new name.</description>
 <contactref element="IC1" pad="5"/>
 <contactref element="R1" pad="1"/>
 <contactref element="D1" pad="A"/>
-<wire x1="31.496" y1="74.168" x2="44.196" y2="74.422" width="0" layer="19" extent="1-1"/>
-<wire x1="32.639" y1="63.881" x2="31.496" y2="74.168" width="0" layer="19" extent="1-1"/>
-<wire x1="21.59" y1="66.04" x2="32.639" y2="63.881" width="0" layer="19" extent="1-1"/>
+<wire x1="32.512" y1="74.676" x2="45.212" y2="74.93" width="0" layer="19" extent="1-1"/>
+<wire x1="33.655" y1="64.389" x2="32.512" y2="74.676" width="0" layer="19" extent="1-1"/>
+<wire x1="21.59" y1="66.04" x2="33.655" y2="64.389" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$7">
 <contactref element="C4" pad="+"/>
 <contactref element="IC1" pad="10"/>
 <contactref element="R2" pad="1"/>
 <contactref element="D2" pad="A"/>
-<wire x1="31.496" y1="68.326" x2="39.116" y2="63.754" width="0" layer="19" extent="1-1"/>
-<wire x1="31.623" y1="71.12" x2="31.496" y2="68.326" width="0" layer="19" extent="1-1"/>
-<wire x1="29.21" y1="66.04" x2="31.496" y2="68.326" width="0" layer="19" extent="1-1"/>
+<wire x1="32.512" y1="68.834" x2="40.132" y2="64.262" width="0" layer="19" extent="1-1"/>
+<wire x1="32.639" y1="71.628" x2="32.512" y2="68.834" width="0" layer="19" extent="1-1"/>
+<wire x1="29.21" y1="66.04" x2="32.512" y2="68.834" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$1">
 <contactref element="IC1" pad="1"/>
@@ -1337,8 +1324,8 @@ design rules under a new name.</description>
 <contactref element="D2" pad="C"/>
 <contactref element="D6" pad="C"/>
 <contactref element="D11" pad="C"/>
-<wire x1="39.243" y1="71.12" x2="48.26" y2="62.484" width="0" layer="19" extent="1-1"/>
-<wire x1="21.59" y1="63.5" x2="39.243" y2="71.12" width="0" layer="19" extent="1-1"/>
+<wire x1="40.259" y1="71.628" x2="49.276" y2="62.992" width="0" layer="19" extent="1-1"/>
+<wire x1="21.59" y1="63.5" x2="40.259" y2="71.628" width="0" layer="19" extent="1-1"/>
 <wire x1="28.575" y1="53.467" x2="21.59" y2="63.5" width="0" layer="19" extent="1-1"/>
 <wire x1="22.352" y1="49.784" x2="28.575" y2="53.467" width="0" layer="19" extent="1-1"/>
 <wire x1="26.924" y1="39.624" x2="22.352" y2="49.784" width="0" layer="19" extent="1-1"/>
@@ -1561,19 +1548,19 @@ design rules under a new name.</description>
 <signal name="N$6">
 <contactref element="R2" pad="2"/>
 <contactref element="R23" pad="1"/>
-<wire x1="45.72" y1="62.484" x2="41.656" y2="68.326" width="0" layer="19" extent="1-1"/>
+<wire x1="46.736" y1="62.992" x2="42.672" y2="68.834" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$38">
 <contactref element="IC1" pad="8"/>
 <contactref element="R24" pad="2"/>
 <contactref element="D1" pad="C"/>
-<wire x1="48.26" y1="68.58" x2="51.816" y2="74.422" width="0" layer="19" extent="1-1"/>
-<wire x1="29.21" y1="60.96" x2="48.26" y2="68.58" width="0" layer="19" extent="1-1"/>
+<wire x1="49.276" y1="69.088" x2="52.832" y2="74.93" width="0" layer="19" extent="1-1"/>
+<wire x1="29.21" y1="60.96" x2="49.276" y2="69.088" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$36">
 <contactref element="R1" pad="2"/>
 <contactref element="R24" pad="1"/>
-<wire x1="45.72" y1="68.58" x2="41.656" y2="74.168" width="0" layer="19" extent="1-1"/>
+<wire x1="46.736" y1="69.088" x2="42.672" y2="74.676" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$37">
 <contactref element="R5" pad="2"/>
@@ -1655,10 +1642,6 @@ design rules under a new name.</description>
 </board>
 </drawing>
 <compatibility>
-<note version="6.3" minversion="6.2.2" severity="warning">
-Since Version 6.2.2 text objects can contain more than one line,
-which will not be processed correctly with this version.
-</note>
 <note version="8.3" severity="warning">
 Since Version 8.3, EAGLE supports URNs for individual library
 assets (packages, symbols, and devices). The URNs of those assets

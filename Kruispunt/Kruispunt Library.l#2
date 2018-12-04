@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="10" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -888,18 +888,12 @@ grid 5 mm, outline 2.5 x 7.5 mm, leads 3mm</description>
 <rectangle x1="7.62" y1="-7.62" x2="8.89" y2="0" layer="21"/>
 <rectangle x1="10.16" y1="-7.62" x2="11.43" y2="0" layer="21"/>
 <rectangle x1="12.7" y1="-8.89" x2="13.97" y2="0" layer="21"/>
-<text x="14.605" y="11.43" size="1.4224" layer="21" font="vector">P0
-</text>
-<text x="12.065" y="11.43" size="1.4224" layer="21" font="vector">P1
-</text>
-<text x="9.525" y="11.43" size="1.4224" layer="21" font="vector">P2
-</text>
-<text x="6.985" y="11.43" size="1.4224" layer="21" font="vector">P3
-</text>
-<text x="4.445" y="11.43" size="1.4224" layer="21" font="vector">P4
-</text>
-<text x="1.905" y="11.43" size="1.4224" layer="21" font="vector">P5
-</text>
+<text x="15.748" y="12.7" size="1.4224" layer="21" font="vector" rot="R90">P0</text>
+<text x="13.208" y="12.7" size="1.4224" layer="21" font="vector" rot="R90">P1</text>
+<text x="10.668" y="12.7" size="1.4224" layer="21" font="vector" rot="R90">P2</text>
+<text x="8.128" y="12.7" size="1.4224" layer="21" font="vector" rot="R90">P3</text>
+<text x="5.588" y="12.7" size="1.4224" layer="21" font="vector" rot="R90">P4</text>
+<text x="3.048" y="12.7" size="1.4224" layer="21" font="vector" rot="R90">P5</text>
 <text x="12.7" y="8.255" size="1.27" layer="21" font="vector">Vin</text>
 <text x="12.7" y="5.715" size="1.27" layer="21" font="vector">GND</text>
 <text x="12.7" y="3.175" size="1.27" layer="21" font="vector">+5v</text>
