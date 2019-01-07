@@ -1967,6 +1967,7 @@ Digital in = 1: groen uit, geel aan en na 2 seconden geel uit en rood aan.
 <wire x1="481.33" y1="-138.176" x2="481.33" y2="-137.922" width="0.1524" layer="94"/>
 <text x="-16.51" y="41.148" size="2.1844" layer="94">&gt;DRAWING_NAME</text>
 <text x="-16.51" y="35.814" size="2.1844" layer="94">&gt;LAST_DATE_TIME</text>
+<text x="-16.51" y="30.734" size="2.1844" layer="94">V2</text>
 </plain>
 <instances>
 <instance part="SUPPLY1" gate="G$1" x="92.71" y="20.32" smashed="yes">
