@@ -1251,7 +1251,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="-1.016" y="-101.854" size="1.27" layer="25"/>
 <attribute name="VALUE" x="-7.366" y="-99.314" size="1.27" layer="27"/>
 </element>
-<element name="X10" library="Kruispunt Library" package="W237-132" value="" x="89.60759375" y="-15.433921875" smashed="yes">
+<element name="X10" library="Kruispunt Library" package="W237-132" value="Voetgagnersknop1" x="89.60759375" y="-15.433921875" smashed="yes">
 <attribute name="MF" value="" x="89.60759375" y="-15.433921875" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="" x="89.60759375" y="-15.433921875" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="87.06759375" y="-12.639921875" size="1.27" layer="25" ratio="10"/>
@@ -1259,7 +1259,7 @@ design rules under a new name.</description>
 <attribute name="OC_NEWARK" value="unknown" x="89.60759375" y="-15.433921875" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="85.79759375" y="-21.148921875" size="1.27" layer="27" ratio="10"/>
 </element>
-<element name="X11" library="Kruispunt Library" package="W237-132" value="" x="79.29519375" y="-15.433921875" smashed="yes">
+<element name="X11" library="Kruispunt Library" package="W237-132" value="Voetgangersknop2" x="79.29519375" y="-15.433921875" smashed="yes">
 <attribute name="MF" value="" x="79.29519375" y="-15.433921875" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="" x="79.29519375" y="-15.433921875" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="76.75519375" y="-12.639921875" size="1.27" layer="25" ratio="10"/>
@@ -1267,7 +1267,7 @@ design rules under a new name.</description>
 <attribute name="OC_NEWARK" value="unknown" x="79.29519375" y="-15.433921875" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="75.48519375" y="-21.148921875" size="1.27" layer="27" ratio="10"/>
 </element>
-<element name="X4" library="Kruispunt Library" package="W237-132" value="" x="68.98279375" y="-15.433921875" smashed="yes">
+<element name="X4" library="Kruispunt Library" package="W237-132" value="Rood1" x="68.98279375" y="-15.433921875" smashed="yes">
 <attribute name="MF" value="" x="68.98279375" y="-15.433921875" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="" x="68.98279375" y="-15.433921875" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="66.44279375" y="-12.639921875" size="1.27" layer="25" ratio="10"/>
@@ -1275,7 +1275,7 @@ design rules under a new name.</description>
 <attribute name="OC_NEWARK" value="unknown" x="68.98279375" y="-15.433921875" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="65.17279375" y="-21.148921875" size="1.27" layer="27" ratio="10"/>
 </element>
-<element name="X12" library="Kruispunt Library" package="W237-132" value="" x="58.67039375" y="-15.433921875" smashed="yes">
+<element name="X12" library="Kruispunt Library" package="W237-132" value="Groen1" x="58.67039375" y="-15.433921875" smashed="yes">
 <attribute name="MF" value="" x="58.67039375" y="-15.433921875" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="" x="58.67039375" y="-15.433921875" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="56.13039375" y="-12.639921875" size="1.27" layer="25" ratio="10"/>
@@ -1283,7 +1283,7 @@ design rules under a new name.</description>
 <attribute name="OC_NEWARK" value="unknown" x="58.67039375" y="-15.433921875" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="54.86039375" y="-21.148921875" size="1.27" layer="27" ratio="10"/>
 </element>
-<element name="X13" library="Kruispunt Library" package="W237-132" value="" x="48.35799375" y="-15.433921875" smashed="yes">
+<element name="X13" library="Kruispunt Library" package="W237-132" value="Geel1" x="48.35799375" y="-15.433921875" smashed="yes">
 <attribute name="MF" value="" x="48.35799375" y="-15.433921875" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="" x="48.35799375" y="-15.433921875" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="45.81799375" y="-12.639921875" size="1.27" layer="25" ratio="10"/>
@@ -1291,7 +1291,7 @@ design rules under a new name.</description>
 <attribute name="OC_NEWARK" value="unknown" x="48.35799375" y="-15.433921875" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="44.54799375" y="-21.148921875" size="1.27" layer="27" ratio="10"/>
 </element>
-<element name="X1" library="Kruispunt Library" package="W237-132" value="" x="38.04559375" y="-15.433921875" smashed="yes">
+<element name="X1" library="Kruispunt Library" package="W237-132" value="Rood2" x="38.04559375" y="-15.433921875" smashed="yes">
 <attribute name="MF" value="" x="38.04559375" y="-15.433921875" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="" x="38.04559375" y="-15.433921875" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="35.50559375" y="-12.639921875" size="1.27" layer="25" ratio="10"/>
@@ -1299,7 +1299,7 @@ design rules under a new name.</description>
 <attribute name="OC_NEWARK" value="unknown" x="38.04559375" y="-15.433921875" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="34.23559375" y="-21.148921875" size="1.27" layer="27" ratio="10"/>
 </element>
-<element name="X6" library="Kruispunt Library" package="W237-132" value="" x="27.73319375" y="-15.433921875" smashed="yes">
+<element name="X6" library="Kruispunt Library" package="W237-132" value="Geel2" x="27.73319375" y="-15.433921875" smashed="yes">
 <attribute name="MF" value="" x="27.73319375" y="-15.433921875" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="" x="27.73319375" y="-15.433921875" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="25.19319375" y="-12.639921875" size="1.27" layer="25" ratio="10"/>
@@ -1307,7 +1307,7 @@ design rules under a new name.</description>
 <attribute name="OC_NEWARK" value="unknown" x="27.73319375" y="-15.433921875" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="23.92319375" y="-21.148921875" size="1.27" layer="27" ratio="10"/>
 </element>
-<element name="X14" library="Kruispunt Library" package="W237-132" value="" x="17.42079375" y="-15.433921875" smashed="yes">
+<element name="X14" library="Kruispunt Library" package="W237-132" value="Groen2" x="17.42079375" y="-15.433921875" smashed="yes">
 <attribute name="MF" value="" x="17.42079375" y="-15.433921875" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="" x="17.42079375" y="-15.433921875" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="14.88079375" y="-12.639921875" size="1.27" layer="25" ratio="10"/>

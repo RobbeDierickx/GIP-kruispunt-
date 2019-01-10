@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.2.2">
+<eagle version="9.1.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -2006,14 +2006,14 @@ Source: www.vishay.com .. ir.pdf</description>
 <part name="PAD17" library="Kruispunt Library" deviceset="WIREPAD" device="" value="Meetpin"/>
 <part name="SUPPLY14" library="Vertrangingsschema library" deviceset="GND5" device="" value="GND"/>
 <part name="SUPPLY15" library="Vertrangingsschema library" deviceset="GND5" device="" value="GND"/>
-<part name="X10" library="Kruispunt Library" deviceset="TERMINAL-5MM-2POLE" device=""/>
-<part name="X11" library="Kruispunt Library" deviceset="TERMINAL-5MM-2POLE" device=""/>
-<part name="X4" library="Kruispunt Library" deviceset="TERMINAL-5MM-2POLE" device=""/>
-<part name="X12" library="Kruispunt Library" deviceset="TERMINAL-5MM-2POLE" device=""/>
-<part name="X13" library="Kruispunt Library" deviceset="TERMINAL-5MM-2POLE" device=""/>
-<part name="X1" library="Kruispunt Library" deviceset="TERMINAL-5MM-2POLE" device=""/>
-<part name="X6" library="Kruispunt Library" deviceset="TERMINAL-5MM-2POLE" device=""/>
-<part name="X14" library="Kruispunt Library" deviceset="TERMINAL-5MM-2POLE" device=""/>
+<part name="X10" library="Kruispunt Library" deviceset="TERMINAL-5MM-2POLE" device="" value="Voetgagnersknop1"/>
+<part name="X11" library="Kruispunt Library" deviceset="TERMINAL-5MM-2POLE" device="" value="Voetgangersknop2"/>
+<part name="X4" library="Kruispunt Library" deviceset="TERMINAL-5MM-2POLE" device="" value="Rood1"/>
+<part name="X12" library="Kruispunt Library" deviceset="TERMINAL-5MM-2POLE" device="" value="Groen1"/>
+<part name="X13" library="Kruispunt Library" deviceset="TERMINAL-5MM-2POLE" device="" value="Geel1"/>
+<part name="X1" library="Kruispunt Library" deviceset="TERMINAL-5MM-2POLE" device="" value="Rood2"/>
+<part name="X6" library="Kruispunt Library" deviceset="TERMINAL-5MM-2POLE" device="" value="Geel2"/>
+<part name="X14" library="Kruispunt Library" deviceset="TERMINAL-5MM-2POLE" device="" value="Groen2"/>
 </parts>
 <sheets>
 <sheet>
@@ -2546,21 +2546,21 @@ Digital in = 1: groen uit, geel aan en na 2 seconden geel uit en rood aan.
 <attribute name="NAME" x="377.19" y="100.711" size="1.27" layer="95"/>
 </instance>
 <instance part="X4" gate="-2" x="375.92" y="104.14" smashed="yes" rot="R180">
-<attribute name="VALUE" x="386.08" y="101.6" size="1.27" layer="96" rot="R180"/>
+<attribute name="VALUE" x="382.27" y="99.822" size="1.27" layer="96" rot="R180"/>
 <attribute name="NAME" x="377.19" y="103.251" size="1.27" layer="95"/>
 </instance>
 <instance part="X12" gate="-1" x="355.6" y="38.1" smashed="yes">
 <attribute name="NAME" x="354.33" y="38.989" size="1.27" layer="95" rot="R180"/>
 </instance>
 <instance part="X12" gate="-2" x="355.6" y="35.56" smashed="yes">
-<attribute name="VALUE" x="345.44" y="38.1" size="1.27" layer="96"/>
+<attribute name="VALUE" x="349.758" y="39.878" size="1.27" layer="96"/>
 <attribute name="NAME" x="354.33" y="36.449" size="1.27" layer="95" rot="R180"/>
 </instance>
 <instance part="X13" gate="-1" x="403.86" y="60.96" smashed="yes" rot="R270">
 <attribute name="NAME" x="404.749" y="62.23" size="1.27" layer="95" rot="R90"/>
 </instance>
 <instance part="X13" gate="-2" x="401.32" y="60.96" smashed="yes" rot="R270">
-<attribute name="VALUE" x="403.86" y="71.12" size="1.27" layer="96" rot="R270"/>
+<attribute name="VALUE" x="405.638" y="66.548" size="1.27" layer="96" rot="R270"/>
 <attribute name="NAME" x="402.209" y="62.23" size="1.27" layer="95" rot="R90"/>
 </instance>
 <instance part="X1" gate="-1" x="345.44" y="-17.78" smashed="yes" rot="R180">

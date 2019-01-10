@@ -2062,6 +2062,10 @@ Source: www.vishay.com .. ir.pdf</description>
 <part name="X7" library="Kruispunt Library" deviceset="90-2" device="" package3d_urn="urn:adsk.eagle:package:11443/1" value="Geel2"/>
 <part name="X8" library="Kruispunt Library" deviceset="90-2" device="" package3d_urn="urn:adsk.eagle:package:11443/1" value="Groen2"/>
 <part name="X9" library="Kruispunt Library" deviceset="90-2" device="" package3d_urn="urn:adsk.eagle:package:11443/1" value="Rood2"/>
+<part name="X10" library="Kruispunt Library" deviceset="90-2" device="" package3d_urn="urn:adsk.eagle:package:11443/1"/>
+<part name="X11" library="Kruispunt Library" deviceset="90-2" device="" package3d_urn="urn:adsk.eagle:package:11443/1"/>
+<part name="SUPPLY14" library="Vertrangingsschema library" deviceset="GND5" device="" value="GND"/>
+<part name="SUPPLY15" library="Vertrangingsschema library" deviceset="GND5" device="" value="GND"/>
 </parts>
 <sheets>
 <sheet>
@@ -2594,6 +2598,20 @@ Digital in = 1: groen uit, geel aan en na 2 seconden geel uit en rood aan.
 <attribute name="NAME" x="342.9" y="-13.462" size="1.778" layer="95"/>
 <attribute name="VALUE" x="342.9" y="-21.082" size="1.778" layer="96"/>
 </instance>
+<instance part="X10" gate="G$1" x="53.34" y="101.6" smashed="yes" rot="R90">
+<attribute name="NAME" x="51.562" y="101.6" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="59.182" y="101.6" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="X11" gate="G$1" x="63.5" y="101.6" smashed="yes" rot="R90">
+<attribute name="NAME" x="61.722" y="101.6" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="69.342" y="101.6" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="SUPPLY14" gate="G$1" x="55.88" y="93.98" smashed="yes">
+<attribute name="VALUE" x="53.467" y="90.805" size="1.778" layer="96"/>
+</instance>
+<instance part="SUPPLY15" gate="G$1" x="66.04" y="93.98" smashed="yes">
+<attribute name="VALUE" x="63.627" y="90.805" size="1.778" layer="96"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -2795,6 +2813,18 @@ Digital in = 1: groen uit, geel aan en na 2 seconden geel uit en rood aan.
 <pinref part="PAD11" gate="G$1" pin="MOUNT"/>
 <wire x1="312.42" y1="162.56" x2="312.42" y2="160.02" width="0.1524" layer="91"/>
 <junction x="312.42" y="160.02"/>
+</segment>
+<segment>
+<pinref part="X10" gate="G$1" pin="2"/>
+<wire x1="55.88" y1="99.06" x2="55.88" y2="96.52" width="0.1524" layer="91"/>
+<pinref part="SUPPLY14" gate="G$1" pin="GND5"/>
+<label x="58.42" y="93.98" size="2.1844" layer="95" rot="R90"/>
+</segment>
+<segment>
+<pinref part="X11" gate="G$1" pin="2"/>
+<wire x1="66.04" y1="99.06" x2="66.04" y2="96.52" width="0.1524" layer="91"/>
+<pinref part="SUPPLY15" gate="G$1" pin="GND5"/>
+<label x="68.58" y="93.98" size="2.1844" layer="95" rot="R90"/>
 </segment>
 </net>
 <net name="N$7" class="0">
@@ -3648,6 +3678,22 @@ Digital in = 1: groen uit, geel aan en na 2 seconden geel uit en rood aan.
 <pinref part="R16" gate="G$1" pin="1"/>
 <wire x1="330.2" y1="-21.336" x2="330.2" y2="-22.86" width="0.1524" layer="91"/>
 <junction x="330.2" y="-21.336"/>
+</segment>
+</net>
+<net name="N$26" class="0">
+<segment>
+<pinref part="ATTINY85" gate="G$1" pin="P3"/>
+<wire x1="25.4" y1="86.36" x2="53.34" y2="86.36" width="0.1524" layer="91"/>
+<pinref part="X10" gate="G$1" pin="1"/>
+<wire x1="53.34" y1="86.36" x2="53.34" y2="99.06" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$46" class="0">
+<segment>
+<pinref part="ATTINY85" gate="G$1" pin="P4"/>
+<pinref part="X11" gate="G$1" pin="1"/>
+<wire x1="25.4" y1="88.9" x2="63.5" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="63.5" y1="88.9" x2="63.5" y2="99.06" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
