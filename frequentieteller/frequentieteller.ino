@@ -8,8 +8,8 @@
     Counter1 : 16 bits / used to count the frequency impules
     Counter2 : 8 bits / used to genarate a 1000ms or 100ms gate time for measurement
     
-    I use "bitClear(TIMSK0,TOIEO)" instead of "TIMSK0 &=~(1<<TOIE0)"
-    I use "bitSet(TIMSK0,TOIEO)"   instead of "TIMSK0 |=~(1<<TOIE0)"
+    I use "bitClear(TIMSK,TOIEO)" instead of "TIMSK &=~(1<<TOIE0)"
+    I use "bitSet(TIMSK,TOIEO)"   instead of "TIMSK |=~(1<<TOIE0)"
         
     The serial monitor will also show some (unformatted) results.
  
@@ -28,7 +28,7 @@ volatile unsigned int  gate_time;
 
 void measurement(int ms) {
 
-    bitClear(TIMSK0,TOIE0);     // disable counter0 in order to disable millis() and delay()
+    bitClear(TIMSK,TOIE0);     // disable counter0 in order to disable millis() and delay()
                                              // this will prevent extra interrupts that disturb the measurement
     delayMicroseconds(66);      // wait for other interrupts to finish
     gate_time=ms;                  // usually 1000 (ms)
@@ -66,7 +66,7 @@ ISR(TIMER2_COMPA_vect) {
   if (time_so_far >= gate_time) {          // end of gate time, measurement is ready
     TCCR1B &= B11111000;                 // stop counter1 by setting CS12, CS11 and CS10 to "0"
     bitClear(TIMSK2,OCIE2A);              // disable counter2 interrupts
-    bitSet(TIMSK0,TOIE0);       // enable Timer0 again // millis and delay
+    bitSet(TIMSK,TOIE0);       // enable Timer0 again // millis and delay
     measurement_ready=true;                // set global flag for end count period
                                                           // calculate now frequeny value 
     frequency=0x10000 * overflow_counter;  // mult #overflows by 65636 (0x10000)
