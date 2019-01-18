@@ -4,13 +4,11 @@
 #define LOOP1 0
 #define LOOP2 2
 
-unsigned long previousMillis1;
-unsigned long previousMillis2;
-unsigned long currentMillis;
-int interval1 = 30000;
-int interval2 = 5000;
-bool onOf = true;
-bool buttonPress;
+unsigned long previousMillis = 0;
+const int interval1 = 30000;
+const int interval2 = 5000;
+bool onOff = true;
+bool buttonPress = false;
 
 void setup()
 {
@@ -23,17 +21,18 @@ void setup()
 
 void loop()
 {
-  currentMillis = millis();
-  if ((currentMillis - previousMillis1 >= interval1) || (buttonPress) && (currentMillis - previousMillis2 >= interval2))
+  if ((millis() - previousMillis >= interval1) || ((buttonPress) && (millis() - previousMillis >= interval2)))
   {
-    previousMillis1 = currentMillis;
+    previousMillis = millis();
     buttonPress = false;
-    digitalWrite(LIGHTS, onOf);
-    onOf = !onOf;
+    digitalWrite(LIGHTS, onOff);
+    onOff = !onOff;
   }
-  if (digitalRead(BUTTON1)
+  if (((!digitalRead(BUTTON1) && onOff) || (!digitalRead(BUTTON2) && !onOff)) && (!buttonPress))
   {
     buttonPress = true;
-    previousMillis2 = currentMillis;      
+    previousMillis = millis();
   }
 }
+
+
