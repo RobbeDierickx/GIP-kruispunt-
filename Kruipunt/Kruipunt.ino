@@ -21,18 +21,16 @@ void setup()
 
 void loop()
 {
-  if ((millis() - previousMillis >= interval1) || ((buttonPress) && (millis() - previousMillis >= interval2)))
+  if ((millis() - previousMillis >= interval1) || ((buttonPress)  && (millis() - previousMillis >= interval2)))
   {
     previousMillis = millis();
     buttonPress = false;
     digitalWrite(LIGHTS, onOff);
     onOff = !onOff;
   }
-  if (((!digitalRead(BUTTON1) && onOff) || (!digitalRead(BUTTON2) && !onOff)) && (!buttonPress))
+  if (((digitalRead(BUTTON1) && onOff) || (digitalRead(BUTTON2) && !onOff)) && (!buttonPress))
   {
     buttonPress = true;
     previousMillis = millis();
   }
 }
-
-
