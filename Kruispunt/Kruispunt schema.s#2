@@ -2532,14 +2532,14 @@ Digital in = 1: groen uit, geel aan en na 2 seconden geel uit en rood aan.
 <attribute name="NAME" x="56.769" y="105.41" size="1.27" layer="95" rot="R90"/>
 </instance>
 <instance part="X10" gate="-2" x="53.34" y="104.14" smashed="yes" rot="R270">
-<attribute name="VALUE" x="55.88" y="114.3" size="1.27" layer="96" rot="R270"/>
+<attribute name="VALUE" x="50.8" y="114.3" size="1.27" layer="96" rot="R270"/>
 <attribute name="NAME" x="54.229" y="105.41" size="1.27" layer="95" rot="R90"/>
 </instance>
 <instance part="X11" gate="-1" x="66.04" y="104.14" smashed="yes" rot="R270">
 <attribute name="NAME" x="66.929" y="105.41" size="1.27" layer="95" rot="R90"/>
 </instance>
 <instance part="X11" gate="-2" x="63.5" y="104.14" smashed="yes" rot="R270">
-<attribute name="VALUE" x="66.04" y="114.3" size="1.27" layer="96" rot="R270"/>
+<attribute name="VALUE" x="60.96" y="114.3" size="1.27" layer="96" rot="R270"/>
 <attribute name="NAME" x="64.389" y="105.41" size="1.27" layer="95" rot="R90"/>
 </instance>
 <instance part="X4" gate="-1" x="375.92" y="101.6" smashed="yes" rot="R180">
