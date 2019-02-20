@@ -84,7 +84,7 @@ ISR(TIMER2_COMPA_vect) {
 
 
 void setup() {
-  pinMode(LED, OUTPUT);
+  pinMode(LED_BUILTIN, OUTPUT);
   pinMode(5,INPUT);
   Serial.begin(9600);
 }
@@ -117,11 +117,11 @@ void loop() {
   Serial.print("     Period (sec): ");
   Serial.println(period,7);  
 
-  if (frq < 434000){
-    digitalWrite(LED, HIGH);
+  if (frq < 200000){
+    digitalWrite(LED_BUILTIN, HIGH);
     }
   else{
-    digitalWrite(LED, LOW);
+    digitalWrite(LED_BUILTIN, LOW);
   }
    
 }  
