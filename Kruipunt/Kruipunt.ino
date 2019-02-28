@@ -1,14 +1,27 @@
+/*
+ * Het programma om de lichtsturing aan te sturen met een ATTiny85.
+ * 
+ * P0 -> Lusdetectie 1
+ * P1 -> Lichtsturing
+ * P2 -> Lusdetectie 2
+ * P3 -> Voetgangersknop 1
+ * P4 -> Voetgangersknop 2
+ * 
+ */
+
+
+
 #define LIGHTS 1
 #define BUTTON1 3
 #define BUTTON2 4
 #define LOOP1 0
 #define LOOP2 2
 
-unsigned long previousMillis = 0;
-const int interval1 = 30000;
-const int interval2 = 5000;
-bool onOff = true;
-bool buttonPress = false;
+unsigned long previousMillis = 0; // Variabele om de vorige tijd bij te houden
+const int interval1 = 30000;      // Variabele die het interval tussen de lichtwisseling weergeeft
+const int interval2 = 5000;       // Variabele die het interval tussen de lichtwisseling weergeeft wanneer er een knop is ingedrukt / Lusdetectie 
+bool onOff = true;                // Variabele die weergeeft of het licht aan/uit is
+bool buttonPress = false;         // Variabele die weergeeft of de knop is ingedrukt
 
 
 
