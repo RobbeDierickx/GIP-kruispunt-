@@ -1384,7 +1384,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="19.40109375" y="-12.43819375" size="1.27" layer="25" ratio="10"/>
 <attribute name="OC_FARNELL" value="unknown" x="21.94109375" y="-15.23219375" size="1.778" layer="27" display="off"/>
 <attribute name="OC_NEWARK" value="unknown" x="21.94109375" y="-15.23219375" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="13.93209375" y="-10.55419375" size="1.9304" layer="27" ratio="10"/>
+<attribute name="VALUE" x="14.93209375" y="-8.55419375" size="1.9304" layer="27" ratio="10"/>
 </element>
 <element name="18" library="Kruispunt Library" package="PAD" value="" x="66" y="45" rot="R270"/>
 <element name="19" library="Kruispunt Library" package="PAD" value="" x="69" y="45" rot="R270"/>
@@ -1410,8 +1410,8 @@ design rules under a new name.</description>
 <attribute name="OC_FARNELL" value="unknown" x="96.266" y="19.56" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="OC_NEWARK" value="unknown" x="96.266" y="19.56" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="R31" library="Kruispunt Library" package="0207/10" value="10k" x="-2" y="-23"/>
-<element name="R32" library="Kruispunt Library" package="0207/10" value="10k" x="-2" y="-28"/>
+<element name="R31" library="Kruispunt Library" package="0207/10" value="10k" x="10" y="-12" rot="R90"/>
+<element name="R32" library="Kruispunt Library" package="0207/10" value="10k" x="14" y="-12" rot="R90"/>
 </elements>
 <signals>
 <signal name="GND" class="1">
@@ -1565,8 +1565,8 @@ design rules under a new name.</description>
 <wire x1="4.826" y1="57.658" x2="19.812" y2="45.593" width="0" layer="19" extent="1-1"/>
 <wire x1="4.826" y1="62.738" x2="4.826" y2="57.658" width="0" layer="19" extent="1-1"/>
 <wire x1="29.21" y1="76.2" x2="44.852" y2="54.251" width="0" layer="19" extent="1-1"/>
-<wire x1="3.08" y1="-23" x2="29.85328125" y2="-15.871621875" width="0" layer="19" extent="1-1"/>
-<wire x1="3.08" y1="-28" x2="3.08" y2="-23" width="0" layer="19" extent="1-1"/>
+<wire x1="10" y1="-6.92" x2="29.85328125" y2="-15.871621875" width="0" layer="19" extent="1-1"/>
+<wire x1="14" y1="-6.92" x2="10" y2="-6.92" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="VIN">
 <contactref element="ATTINY85" pad="VIN"/>
@@ -1918,8 +1918,8 @@ design rules under a new name.</description>
 <contactref element="ATTINY85" pad="P3"/>
 <contactref element="X11" pad="2"/>
 <contactref element="R32" pad="1"/>
-<wire x1="-7.08" y1="-28" x2="17.526" y2="72.898" width="0" layer="19" extent="1-1"/>
-<wire x1="87.025609375" y1="-15.84343125" x2="-7.08" y2="-28" width="0" layer="19" extent="1-1"/>
+<wire x1="14" y1="-17.08" x2="17.526" y2="72.898" width="0" layer="19" extent="1-1"/>
+<wire x1="87.025609375" y1="-15.84343125" x2="14" y2="-17.08" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="DIG-IN1">
 <contactref element="Q3" pad="2"/>
@@ -2016,8 +2016,8 @@ design rules under a new name.</description>
 <contactref element="R31" pad="1"/>
 <contactref element="X10" pad="2"/>
 <contactref element="ATTINY85" pad="P4"/>
-<wire x1="-7.08" y1="-23" x2="17.526" y2="75.438" width="0" layer="19" extent="1-1"/>
-<wire x1="97.47645" y1="-15.867953125" x2="-7.08" y2="-23" width="0" layer="19" extent="1-1"/>
+<wire x1="10" y1="-17.08" x2="17.526" y2="75.438" width="0" layer="19" extent="1-1"/>
+<wire x1="97.47645" y1="-15.867953125" x2="10" y2="-17.08" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 <mfgpreviewcolors>

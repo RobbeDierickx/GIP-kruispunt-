@@ -1038,7 +1038,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="38.1" y="74.168" size="1.27" layer="25" ratio="10"/>
 <attribute name="VALUE" x="35.2044" y="74.168" size="1.27" layer="27" ratio="10"/>
 </element>
-<element name="R10" library="Kruispunt Library" package="0207/10" value="1k" x="7.366" y="45.72" smashed="yes">
+<element name="R10" library="Kruispunt Library" package="0207/10" value="220" x="7.366" y="45.72" smashed="yes">
 <attribute name="NAME" x="7.112" y="45.085" size="1.27" layer="25" ratio="10"/>
 <attribute name="VALUE" x="4.8514" y="45.085" size="1.27" layer="27" ratio="10"/>
 </element>
@@ -1070,7 +1070,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="39.116" y="8.509" size="1.27" layer="25" ratio="10"/>
 <attribute name="VALUE" x="36.0934" y="8.509" size="1.27" layer="27" ratio="10"/>
 </element>
-<element name="R18" library="Kruispunt Library" package="0207/10" value="1k" x="39.243" y="24.384" smashed="yes">
+<element name="R18" library="Kruispunt Library" package="0207/10" value="220" x="39.243" y="24.384" smashed="yes">
 <attribute name="NAME" x="38.862" y="23.749" size="1.27" layer="25" ratio="10"/>
 <attribute name="VALUE" x="36.4744" y="23.749" size="1.27" layer="27" ratio="10"/>
 </element>
