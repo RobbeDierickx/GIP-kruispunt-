@@ -937,7 +937,7 @@ design rules under a new name.</description>
 </element>
 <element name="C6" library="Kruispunt Library" package="ELCO-2.5MMLEAD" value="22µF" x="17.304" y="10.668" smashed="yes">
 <attribute name="NAME" x="20.352" y="12.7" size="1.27" layer="25" font="vector"/>
-<attribute name="VALUE" x="20.352" y="10.414" size="1.27" layer="27" font="vector"/>
+<attribute name="VALUE" x="21.352" y="10.414" size="1.27" layer="27" font="vector"/>
 </element>
 <element name="C7" library="test(3)" package="CERAMIC-CAP-C050-025X075" value="10nF" x="73.66" y="65.913" smashed="yes">
 <attribute name="NAME" x="71.247" y="68.072" size="1.27" layer="25" ratio="10"/>
@@ -1041,7 +1041,7 @@ design rules under a new name.</description>
 </element>
 <element name="R12" library="Kruispunt Library" package="0207/10" value="10k" x="39.243" y="15.24" smashed="yes">
 <attribute name="NAME" x="38.989" y="14.605" size="1.27" layer="25" ratio="10"/>
-<attribute name="VALUE" x="36.0934" y="13.605" size="1.27" layer="27" ratio="10"/>
+<attribute name="VALUE" x="36.0934" y="14.605" size="1.27" layer="27" ratio="10"/>
 </element>
 <element name="R13" library="Kruispunt Library" package="0207/10" value="80k" x="39.243" y="6.096" smashed="yes">
 <attribute name="NAME" x="38.989" y="5.461" size="1.27" layer="25" ratio="10"/>

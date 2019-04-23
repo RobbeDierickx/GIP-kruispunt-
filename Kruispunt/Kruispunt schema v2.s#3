@@ -2249,7 +2249,7 @@ grid 2.5 + 5 mm, outline 3.5 x 7.5 mm</description>
 <part name="9" library="Kruispunt Library" deviceset="WIREPAD" device="" value="Meetpin"/>
 <part name="10" library="Kruispunt Library" deviceset="WIREPAD" device="" value="Meetpin"/>
 <part name="11" library="Kruispunt Library" deviceset="WIREPAD" device="" value="Meetpin"/>
-<part name="PAD12" library="Kruispunt Library" deviceset="WIREPAD" device="" value=""/>
+<part name="12" library="Kruispunt Library" deviceset="WIREPAD" device="" value=""/>
 <part name="13" library="Kruispunt Library" deviceset="WIREPAD" device="" value=""/>
 <part name="14" library="Kruispunt Library" deviceset="WIREPAD" device="" value="Meetpin"/>
 <part name="15" library="Kruispunt Library" deviceset="WIREPAD" device="" value="Meetpin"/>
@@ -2750,7 +2750,7 @@ Digital in = 1: groen uit, geel aan en na 2 seconden geel uit en rood aan.
 <attribute name="NAME" x="307.34" y="170.1038" size="1.27" layer="95" rot="R180"/>
 <attribute name="VALUE" x="307.34" y="167.64" size="1.27" layer="96" rot="R180"/>
 </instance>
-<instance part="PAD12" gate="G$1" x="375.92" y="83.82" smashed="yes" rot="MR180">
+<instance part="12" gate="G$1" x="375.92" y="83.82" smashed="yes" rot="MR180">
 <attribute name="NAME" x="381" y="81.2038" size="1.27" layer="95" rot="MR180"/>
 <attribute name="VALUE" x="381" y="83.82" size="1.27" layer="96" rot="MR180"/>
 </instance>
@@ -3327,7 +3327,7 @@ Digital in = 1: groen uit, geel aan en na 2 seconden geel uit en rood aan.
 <pinref part="Q3" gate="G$1" pin="D"/>
 <wire x1="360.68" y1="81.28" x2="360.68" y2="83.82" width="0.1524" layer="91"/>
 <pinref part="R6" gate="G$1" pin="1"/>
-<pinref part="PAD12" gate="G$1" pin="MOUNT"/>
+<pinref part="12" gate="G$1" pin="MOUNT"/>
 <wire x1="360.68" y1="83.82" x2="360.68" y2="86.36" width="0.1524" layer="91"/>
 <wire x1="370.84" y1="83.82" x2="360.68" y2="83.82" width="0.1524" layer="91"/>
 <junction x="360.68" y="83.82"/>

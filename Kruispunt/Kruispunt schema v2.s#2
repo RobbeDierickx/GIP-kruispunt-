@@ -2801,12 +2801,12 @@ Digital in = 1: groen uit, geel aan en na 2 seconden geel uit en rood aan.
 <attribute name="VALUE" x="382.27" y="99.822" size="1.27" layer="96" rot="R180"/>
 <attribute name="NAME" x="377.19" y="103.251" size="1.27" layer="95"/>
 </instance>
-<instance part="X12" gate="-1" x="355.6" y="38.1" smashed="yes">
-<attribute name="NAME" x="354.33" y="38.989" size="1.27" layer="95" rot="R180"/>
-</instance>
-<instance part="X12" gate="-2" x="355.6" y="35.56" smashed="yes">
-<attribute name="VALUE" x="349.758" y="39.878" size="1.27" layer="96"/>
+<instance part="X12" gate="-1" x="355.6" y="35.56" smashed="yes">
 <attribute name="NAME" x="354.33" y="36.449" size="1.27" layer="95" rot="R180"/>
+</instance>
+<instance part="X12" gate="-2" x="355.6" y="38.1" smashed="yes">
+<attribute name="VALUE" x="349.758" y="42.418" size="1.27" layer="96"/>
+<attribute name="NAME" x="354.33" y="38.989" size="1.27" layer="95" rot="R180"/>
 </instance>
 <instance part="X13" gate="-1" x="403.86" y="60.96" smashed="yes" rot="R270">
 <attribute name="NAME" x="404.749" y="62.23" size="1.27" layer="95" rot="R90"/>
@@ -2829,12 +2829,12 @@ Digital in = 1: groen uit, geel aan en na 2 seconden geel uit en rood aan.
 <attribute name="VALUE" x="373.38" y="-48.26" size="1.27" layer="96" rot="R270"/>
 <attribute name="NAME" x="371.729" y="-57.15" size="1.27" layer="95" rot="R90"/>
 </instance>
-<instance part="X14" gate="-1" x="327.66" y="-81.28" smashed="yes">
-<attribute name="NAME" x="326.39" y="-80.391" size="1.27" layer="95" rot="R180"/>
-</instance>
-<instance part="X14" gate="-2" x="327.66" y="-83.82" smashed="yes">
-<attribute name="VALUE" x="317.5" y="-81.28" size="1.27" layer="96"/>
+<instance part="X14" gate="-1" x="327.66" y="-83.82" smashed="yes">
 <attribute name="NAME" x="326.39" y="-82.931" size="1.27" layer="95" rot="R180"/>
+</instance>
+<instance part="X14" gate="-2" x="327.66" y="-81.28" smashed="yes">
+<attribute name="VALUE" x="317.5" y="-78.74" size="1.27" layer="96"/>
+<attribute name="NAME" x="326.39" y="-80.391" size="1.27" layer="95" rot="R180"/>
 </instance>
 <instance part="18" gate="G$1" x="129.54" y="-35.56" smashed="yes" rot="R90">
 <attribute name="NAME" x="126.9238" y="-30.48" size="1.27" layer="95" rot="R90"/>
@@ -2902,12 +2902,12 @@ Digital in = 1: groen uit, geel aan en na 2 seconden geel uit en rood aan.
 <pinref part="C18" gate="G$1" pin="P$1"/>
 <wire x1="274.32" y1="48.26" x2="274.32" y2="30.48" width="0.1524" layer="91"/>
 <junction x="274.32" y="30.48"/>
-<wire x1="360.68" y1="35.56" x2="363.22" y2="35.56" width="0.1524" layer="91"/>
 <wire x1="363.22" y1="35.56" x2="363.22" y2="31.75" width="0.1524" layer="91"/>
 <wire x1="363.22" y1="31.75" x2="363.474" y2="31.496" width="0.1524" layer="91"/>
 <wire x1="363.474" y1="31.496" x2="369.824" y2="31.496" width="0.1524" layer="91"/>
 <junction x="369.824" y="31.496"/>
-<pinref part="X12" gate="-2" pin="P$2"/>
+<pinref part="X12" gate="-1" pin="P$1"/>
+<wire x1="360.68" y1="35.56" x2="363.22" y2="35.56" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND1" gate="GND" pin="GND5"/>
@@ -2936,12 +2936,12 @@ Digital in = 1: groen uit, geel aan en na 2 seconden geel uit en rood aan.
 <pinref part="C19" gate="G$1" pin="P$1"/>
 <wire x1="241.3" y1="-73.66" x2="241.3" y2="-88.9" width="0.1524" layer="91"/>
 <junction x="241.3" y="-88.9"/>
-<wire x1="332.74" y1="-83.82" x2="333.756" y2="-83.82" width="0.1524" layer="91"/>
 <wire x1="333.756" y1="-83.82" x2="333.756" y2="-87.376" width="0.1524" layer="91"/>
 <wire x1="333.756" y1="-87.376" x2="338.836" y2="-87.376" width="0.1524" layer="91"/>
 <wire x1="338.836" y1="-87.376" x2="339.344" y2="-86.868" width="0.1524" layer="91"/>
 <junction x="339.344" y="-86.868"/>
-<pinref part="X14" gate="-2" pin="P$2"/>
+<pinref part="X14" gate="-1" pin="P$1"/>
+<wire x1="332.74" y1="-83.82" x2="333.756" y2="-83.82" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="ATTINY85" gate="G$1" pin="GND"/>
@@ -3310,7 +3310,7 @@ Digital in = 1: groen uit, geel aan en na 2 seconden geel uit en rood aan.
 <wire x1="363.22" y1="40.64" x2="369.824" y2="40.64" width="0.1524" layer="91"/>
 <wire x1="369.824" y1="40.64" x2="369.824" y2="40.132" width="0.1524" layer="91"/>
 <junction x="369.824" y="40.132"/>
-<pinref part="X12" gate="-1" pin="P$1"/>
+<pinref part="X12" gate="-2" pin="P$2"/>
 <wire x1="360.68" y1="38.1" x2="363.22" y2="38.1" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -3440,12 +3440,12 @@ Digital in = 1: groen uit, geel aan en na 2 seconden geel uit en rood aan.
 <pinref part="D8" gate="G$1" pin="A"/>
 <wire x1="339.344" y1="-78.232" x2="339.344" y2="-79.248" width="0.1524" layer="91"/>
 <pinref part="R14" gate="G$1" pin="2"/>
-<wire x1="332.74" y1="-81.28" x2="333.756" y2="-81.28" width="0.1524" layer="91"/>
 <wire x1="333.756" y1="-81.28" x2="333.756" y2="-78.486" width="0.1524" layer="91"/>
 <wire x1="333.756" y1="-78.486" x2="339.09" y2="-78.486" width="0.1524" layer="91"/>
 <wire x1="339.09" y1="-78.486" x2="339.344" y2="-78.232" width="0.1524" layer="91"/>
 <junction x="339.344" y="-78.232"/>
-<pinref part="X14" gate="-1" pin="P$1"/>
+<pinref part="X14" gate="-2" pin="P$2"/>
+<wire x1="332.74" y1="-81.28" x2="333.756" y2="-81.28" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$24" class="0">
