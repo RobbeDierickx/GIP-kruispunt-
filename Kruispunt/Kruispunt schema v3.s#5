@@ -2186,7 +2186,7 @@ grid 2.5 + 5 mm, outline 3.5 x 7.5 mm</description>
 <part name="R3" library="Kruispunt Library" deviceset="RESISTOR" device="" value="1k"/>
 <part name="R6" library="Kruispunt Library" deviceset="RESISTOR" device="" value="1k"/>
 <part name="R7" library="Kruispunt Library" deviceset="RESISTOR" device="" value="1k"/>
-<part name="R10" library="Kruispunt Library" deviceset="RESISTOR" device="" value="220"/>
+<part name="R10" library="Kruispunt Library" deviceset="RESISTOR" device="" value="1k"/>
 <part name="R8" library="Kruispunt Library" deviceset="RESISTOR" device="" value="10k"/>
 <part name="R9" library="Kruispunt Library" deviceset="RESISTOR" device="" value="10k"/>
 <part name="R11" library="Kruispunt Library" deviceset="RESISTOR" device="" value="1k"/>
@@ -2194,7 +2194,7 @@ grid 2.5 + 5 mm, outline 3.5 x 7.5 mm</description>
 <part name="R14" library="Kruispunt Library" deviceset="RESISTOR" device="" value="1k"/>
 <part name="R16" library="Kruispunt Library" deviceset="RESISTOR" device="" value="1k"/>
 <part name="R15" library="Kruispunt Library" deviceset="RESISTOR" device="" value="10k"/>
-<part name="R18" library="Kruispunt Library" deviceset="RESISTOR" device="" value="220"/>
+<part name="R18" library="Kruispunt Library" deviceset="RESISTOR" device="" value="1k"/>
 <part name="R17" library="Kruispunt Library" deviceset="RESISTOR" device="" value="10k"/>
 <part name="R13" library="Kruispunt Library" deviceset="RESISTOR" device="" value="80k"/>
 <part name="R21" library="Kruispunt Library" deviceset="RESISTOR" device="" value="10k"/>
@@ -2471,9 +2471,9 @@ Digital in = 1: groen uit, geel aan en na 2 seconden geel uit en rood aan.
 <attribute name="NAME" x="262.6614" y="92.71" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="267.462" y="92.71" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="R3" gate="G$1" x="215.9" y="50.8" smashed="yes" rot="R90">
-<attribute name="NAME" x="214.4014" y="46.99" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="219.202" y="46.99" size="1.778" layer="96" rot="R90"/>
+<instance part="R3" gate="G$1" x="210.82" y="88.9" smashed="yes" rot="R90">
+<attribute name="NAME" x="209.3214" y="85.09" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="214.122" y="85.09" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="R6" gate="G$1" x="360.68" y="91.44" smashed="yes" rot="R90">
 <attribute name="NAME" x="359.1814" y="87.63" size="1.778" layer="95" rot="R90"/>
@@ -2911,10 +2911,6 @@ Digital in = 1: groen uit, geel aan en na 2 seconden geel uit en rood aan.
 <junction x="369.824" y="31.496"/>
 <pinref part="X12" gate="-1" pin="P$1"/>
 <wire x1="360.68" y1="35.56" x2="363.22" y2="35.56" width="0.1524" layer="91"/>
-<pinref part="R3" gate="G$1" pin="1"/>
-<wire x1="215.9" y1="45.72" x2="215.9" y2="30.48" width="0.1524" layer="91"/>
-<wire x1="215.9" y1="30.48" x2="264.16" y2="30.48" width="0.1524" layer="91"/>
-<junction x="264.16" y="30.48"/>
 </segment>
 <segment>
 <pinref part="GND1" gate="GND" pin="GND5"/>
@@ -3119,6 +3115,10 @@ Digital in = 1: groen uit, geel aan en na 2 seconden geel uit en rood aan.
 <wire x1="406.4" y1="111.76" x2="360.68" y2="111.76" width="0.1524" layer="91"/>
 <wire x1="406.4" y1="101.6" x2="406.4" y2="111.76" width="0.1524" layer="91"/>
 <junction x="406.4" y="111.76"/>
+<pinref part="R3" gate="G$1" pin="2"/>
+<wire x1="210.82" y1="93.98" x2="210.82" y2="111.76" width="0.1524" layer="91"/>
+<wire x1="210.82" y1="111.76" x2="264.16" y2="111.76" width="0.1524" layer="91"/>
+<junction x="264.16" y="111.76"/>
 </segment>
 <segment>
 <wire x1="233.68" y1="-7.62" x2="233.68" y2="-17.78" width="0.1524" layer="91"/>
@@ -3828,16 +3828,18 @@ Digital in = 1: groen uit, geel aan en na 2 seconden geel uit en rood aan.
 <wire x1="388.62" y1="76.2" x2="388.62" y2="71.12" width="0.1524" layer="91"/>
 <pinref part="D6" gate="G$1" pin="C"/>
 <wire x1="397.002" y1="76.2" x2="388.62" y2="76.2" width="0.1524" layer="91"/>
-<wire x1="215.9" y1="116.84" x2="215.9" y2="73.66" width="0.1524" layer="91"/>
+<pinref part="R3" gate="G$1" pin="1"/>
+<wire x1="215.9" y1="116.84" x2="215.9" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="215.9" y1="83.82" x2="210.82" y2="83.82" width="0.1524" layer="91"/>
 <pinref part="C1" gate="G$1" pin="P$2"/>
-<wire x1="195.58" y1="73.66" x2="215.9" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="195.58" y1="73.66" x2="210.82" y2="73.66" width="0.1524" layer="91"/>
 <pinref part="JP1" gate="G$1" pin="2"/>
-<wire x1="215.9" y1="73.66" x2="241.3" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="210.82" y1="73.66" x2="241.3" y2="73.66" width="0.1524" layer="91"/>
 <wire x1="203.2" y1="152.4" x2="195.58" y2="152.4" width="0.1524" layer="91"/>
 <wire x1="195.58" y1="152.4" x2="195.58" y2="73.66" width="0.1524" layer="91"/>
-<junction x="215.9" y="73.66"/>
-<pinref part="R3" gate="G$1" pin="2"/>
-<wire x1="215.9" y1="55.88" x2="215.9" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="210.82" y1="73.66" x2="210.82" y2="83.82" width="0.1524" layer="91"/>
+<junction x="210.82" y="73.66"/>
+<junction x="210.82" y="83.82"/>
 </segment>
 </net>
 <net name="N48" class="1">
