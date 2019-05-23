@@ -43,7 +43,7 @@ void loop()
     digitalWrite(LIGHTS, onOff);
     onOff = !onOff;
   }
-  if (((!digitalRead(BUTTON1) && onOff) || (!digitalRead(BUTTON2) && !onOff) || (digitalRead(LOOP1) && onOff) || (digitalRead(LOOP2) && !onOff)) && (!buttonPress  && ((millis() - previousMillis) <= (interval1 - interval2))))
+  if (((!digitalRead(BUTTON1) && onOff) || (!digitalRead(BUTTON2) && !onOff) /*|| (digitalRead(LOOP1) && onOff) || (digitalRead(LOOP2) && !onOff)*/) && (!buttonPress  && ((millis() - previousMillis) <= (interval1 - interval2))))
   {
     buttonPress = true;
     previousMillis = millis();
