@@ -2186,7 +2186,7 @@ grid 2.5 + 5 mm, outline 3.5 x 7.5 mm</description>
 <part name="R3" library="Kruispunt Library" deviceset="RESISTOR" device="" value="1k"/>
 <part name="R6" library="Kruispunt Library" deviceset="RESISTOR" device="" value="1k"/>
 <part name="R7" library="Kruispunt Library" deviceset="RESISTOR" device="" value="1k"/>
-<part name="R10" library="Kruispunt Library" deviceset="RESISTOR" device="" value="1k"/>
+<part name="R10" library="Kruispunt Library" deviceset="RESISTOR" device="" value="220"/>
 <part name="R8" library="Kruispunt Library" deviceset="RESISTOR" device="" value="10k"/>
 <part name="R9" library="Kruispunt Library" deviceset="RESISTOR" device="" value="10k"/>
 <part name="R11" library="Kruispunt Library" deviceset="RESISTOR" device="" value="1k"/>
@@ -2194,7 +2194,7 @@ grid 2.5 + 5 mm, outline 3.5 x 7.5 mm</description>
 <part name="R14" library="Kruispunt Library" deviceset="RESISTOR" device="" value="1k"/>
 <part name="R16" library="Kruispunt Library" deviceset="RESISTOR" device="" value="1k"/>
 <part name="R15" library="Kruispunt Library" deviceset="RESISTOR" device="" value="10k"/>
-<part name="R18" library="Kruispunt Library" deviceset="RESISTOR" device="" value="1k"/>
+<part name="R18" library="Kruispunt Library" deviceset="RESISTOR" device="" value="220"/>
 <part name="R17" library="Kruispunt Library" deviceset="RESISTOR" device="" value="10k"/>
 <part name="R13" library="Kruispunt Library" deviceset="RESISTOR" device="" value="80k"/>
 <part name="R21" library="Kruispunt Library" deviceset="RESISTOR" device="" value="10k"/>
