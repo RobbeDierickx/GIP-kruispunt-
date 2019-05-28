@@ -152,7 +152,7 @@ void loop() {
 
 
 
-  if (frq > (setupFrq + 2500)) {
+  if (frq > (setupFrq + 1000)) {
     digitalWrite(2, HIGH);
     digitalWrite(3, HIGH);
   }
